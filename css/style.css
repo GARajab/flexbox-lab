@@ -8,6 +8,7 @@ body {
   margin: 0;
 }
 
+/* start nav */
 nav {
   background-color: white;
   padding: 8px 16px;
@@ -19,21 +20,32 @@ nav {
 #destinations {
   display: flex;
   align-items: center;
-}
-
-#destinations p {
-  margin-left: 30px;
+  gap: 16px;
 }
 
 #actions {
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
-#actions p,
-.button {
-  margin-right: 30px;
+/* end nav */
+
+/* start hero */
+#hero {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
+
+#trending {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* end hero */
 
 p {
   margin: 0;
